@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
       button.addEventListener("click", function() {
           let count = parseInt(taskAssigned.textContent, 10);
           taskAssigned.textContent = count - 1; 
-          alert("hello")
+          alert("Task completed")
       });
   });
   completeButton.forEach(button => {
